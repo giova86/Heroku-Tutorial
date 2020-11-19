@@ -3,6 +3,14 @@ Heroku is one of the easiest platforms for deploying and managing public Flask a
 
 This tutorial will explain how to deploy a dash application on Heroku.
 
+* install libraries
+
+```
+pip install dash
+pip install plolty
+pip install gunicorn
+
+
 * app.py
 ```
 import os
@@ -52,3 +60,4 @@ web: gunicorn app:server
 
 ```
 python-3.8.2
+```
