@@ -34,12 +34,19 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 ```
 
-2. requirement.txt
+* requirement.txt
 
 ```
 pip freeze > requirements.txt
 ```
 
-3. Procfile file
+* Procfile file
+
 ```
 web: gunicorn app:server
+```
+
+* runtime.txt
+
+```
+python-3.8.2
