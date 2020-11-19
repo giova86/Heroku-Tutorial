@@ -40,7 +40,7 @@ if __name__ == '__main__':
 pip freeze > requirements.txt
 ```
 
-* Procfile file
+* Procfile
 
 ```
 web: gunicorn app:server
