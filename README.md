@@ -13,7 +13,7 @@ pip install gunicorn
 
 * app.py
 
-```
+```python
 import os
 
 import dash
