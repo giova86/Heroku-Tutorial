@@ -3,7 +3,7 @@ Heroku is one of the easiest platforms for deploying and managing public Flask a
 
 This tutorial will explain how to deploy a dash application on Herokàu.
 
-## install libraries
+## Install libraries
 
 ```
 pip install dash
@@ -11,7 +11,8 @@ pip install plolty
 pip install gunicorn
 ```
 
-* app.py
+## app.py
+Create the following files in your project folder:
 
 ```python
 import os
@@ -45,19 +46,19 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 ```
 
-* requirement.txt
-
+## requirement.txt
+requirements.txt describes Python dependencies. Fill this file in automatically with:
 ```
 pip freeze > requirements.txt
 ```
 
-* Procfile
+## Procfile
 
 ```
 web: gunicorn app:server
 ```
 
-* runtime.txt
+## runtime.txt
 
 ```
 python-3.8.2
