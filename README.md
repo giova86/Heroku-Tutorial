@@ -9,9 +9,10 @@ This tutorial will explain how to deploy a dash application on Heroku.
 pip install dash
 pip install plolty
 pip install gunicorn
-
+```
 
 * app.py
+
 ```
 import os
 
