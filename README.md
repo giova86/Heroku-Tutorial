@@ -1,4 +1,6 @@
 # Heroku-Tutorial
+Heroku is one of the easiest platforms for deploying and managing public Flask applications. The git & buildpack-based deployment of UIs of Heroku and Dash Enterprise are nearly identical, enabling an easy transition to Dash Enterprise if you are already using Heroku.
+
 This tutorial will explain how to deploy a dash application on Heroku.
 
 * app.py
