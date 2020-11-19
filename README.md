@@ -1,7 +1,7 @@
 # Heroku-Tutorial
 This tutorial will explain how to deploy a dash application on Heroku.
 
-1. app.py
+* app.py
 ```
 import os
 
@@ -32,8 +32,10 @@ def display_value(value):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+```
 
 2. requirement.txt
+
 ```
 pip freeze > requirements.txt
 ```
